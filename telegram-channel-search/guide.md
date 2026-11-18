@@ -106,10 +106,10 @@ For a scheduled run, switch on the checkbox `onlyNew`, the one about posts not r
 - The preview shows what Telegram shows an anonymous visitor. View counts are rounded the way Telegram rounds them. Posts of age-restricted or restricted channels may be missing.
 - The `media` field holds addresses of photos, videos, round videos and voice messages. Documents, stickers and poll options are not included. Some video links are temporary. Files are not downloaded.
 - A window of dates far in the past costs more requests.
-- The tool makes at most one request per second, so large runs take time.
+- At most one request per second is made, so large runs take time.
 - If Telegram refuses access, the tool does not get around any protection. The address is closed for the rest of the run, so the run stops at that channel and does not try the others. If posts were already written, the run ends normally and the status line names the reason and the number of posts. If none were written, the run fails with that message.
 
-When a run fails, the message says whether the input needs a fix, the site changed its format, or the site blocked access. For a changed format, open an issue in the Issues tab with the run link.
+A private, missing or wrongly typed channel does not fail the run: it is skipped; if all are skipped, the run ends with zero posts and a status line naming the reason. When a run fails, the message says whether the input needs a fix, the site changed its format, or the site blocked access. For a changed format, open an issue in the Issues tab with the run link.
 
 ## Links
 

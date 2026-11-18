@@ -115,7 +115,7 @@ The field **Only new jobs since the last run** (`onlyNew`) skips jobs that the t
 - Two "only new" runs with the same searches and filters cannot run at the same time.
 - The tool reads open pages with no login. If the site refuses anonymous access, the tool stops, keeps the jobs found before and does not bypass any protection.
 
-If a run fails, the message names the role or place when the input is wrong. If the site changed its format, the tool needs an update. If the site refused anonymous access, the tool does not bypass protection and keeps the results found before.
+If a role or place is wrong, the log names it and the tool skips it; when every search is skipped, the run ends with no jobs and a status line that names the search and the reason. A run fails when the problem is on the site's side. If the site changed its format, the tool needs an update. If the site refused anonymous access, the tool does not bypass protection and keeps the results found before.
 
 ## Links
 

@@ -95,7 +95,7 @@ The n8n template that comes with this guide runs the Actor once a day. It does n
 
 ## Limits to keep in mind
 
-- Public channels whose web preview is open work. A channel that is private, does not exist or has the preview switched off is skipped with a clear message, and the other channels are still read. If no channel can be read, the run fails. This is different from a refusal by Telegram, described below.
+- Public channels whose web preview is open work. A channel that is private, does not exist or has the preview switched off is skipped with a clear message, and the other channels are still read. If no channel can be read, the run still ends as succeeded with zero posts, and the status line names the skipped channel and the reason. This is different from a refusal by Telegram, described below.
 - The tool reads from the newest post backwards, about 20 posts per request, until it reaches your post limit, your age limit or the start of the channel. It makes at most one request per second, so large runs take time.
 - The preview shows what Telegram shows to an anonymous visitor. Posts of age-restricted or restricted channels may be missing, reactions appear where the channel shows them, and view counts are rounded the way Telegram rounds them, for example 1.67M.
 - The `media` field holds photos, videos, round videos and voice messages. Documents, stickers and poll options are not included; a poll shows just its question in `poll_question`. The media fields hold addresses of files on Telegram servers, and some video links are temporary. Files are not downloaded.
