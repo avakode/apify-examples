@@ -1,0 +1,11 @@
+{
+  "accounts": ["zuck"],
+  "postLinks": [],
+  "postedSince": null,
+  "postedUntil": null,
+  "excludeReplies": false,
+  "maxPostsPerAccount": 10,
+  "maxRepliesPerPost": 50,
+  "onlyNew": false,
+  "maxResults": 100
+}

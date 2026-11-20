@@ -10,6 +10,7 @@ Code examples, n8n workflow templates and step-by-step guides for the Actors tha
 | [dice-jobs](dice-jobs/) | [Dice Jobs Scraper](https://apify.com/avakode/dice-jobs) | Collects remote jobs for one search word, posted in the last seven days. |
 | [telegram-channel-posts](telegram-channel-posts/) | [Telegram Channel Posts Scraper](https://apify.com/avakode/telegram-channel-posts) | Exports the latest posts of a public channel. |
 | [telegram-channel-search](telegram-channel-search/) | [Telegram Channel Search Scraper](https://apify.com/avakode/telegram-channel-search) | Finds the posts with a keyword in two public channels. |
+| [threads-posts](threads-posts/) | [Threads Posts Scraper](https://apify.com/avakode/threads-posts) | Reads the latest public posts of one Threads account with text, date and counts. |
 | [wellfound-jobs](wellfound-jobs/) | [Wellfound Jobs Scraper](https://apify.com/avakode/wellfound-jobs) | Collects startup jobs for one role, in one city and remote, with salary and equity. |
 | [xing-jobs](xing-jobs/) | [Xing Jobs Scraper](https://apify.com/avakode/xing-jobs) | Collects job postings for one keyword and one city. |
 
@@ -21,6 +22,7 @@ Each guide walks through one task: the fields of a record, a run in Apify Consol
 - [How to find remote Python jobs on Dice posted this week](dice-jobs/guide.md)
 - [How to export the latest posts of a public Telegram channel](telegram-channel-posts/guide.md)
 - [How to find Telegram posts by keyword in public channels](telegram-channel-search/guide.md)
+- [How to track the latest public posts of a Threads account](threads-posts/guide.md)
 - [How to collect startup jobs with salary and equity from Wellfound](wellfound-jobs/guide.md)
 - [How to collect public Xing job postings by keyword and city](xing-jobs/guide.md)
 
